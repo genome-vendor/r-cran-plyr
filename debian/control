@@ -1,0 +1,14 @@
+Source: r-cran-plyr
+Section: gnu-r
+Priority: optional
+Maintainer: Hadley Wickham <h.wickham@gmail.com>
+Build-Depends: r-base-dev, r-base-core, debhelper (>> 4.1.0), cdbs
+Homepage: http://had.co.nz/plyr
+
+Package: r-cran-plyr
+Architecture: all
+Maintainer: Hadley Wickham <h.wickham@gmail.com>
+Description: plyr is a set of tools that solves a common set of problems: you need to break a big problem down into manageable pieces, operate on each pieces and then put all the pieces back together. For example, you might want to fit a model to each spatial location or time point in your study, summarise data by panels or collapse high-dimensional arrays to simpler summary statistics. The development of plyr has been generously supported by BD (Becton Dickinson).
+License: MIT
+Depends: r-base-core
+
